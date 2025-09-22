@@ -16,6 +16,11 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use("/api/contact", contactRoutes);
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Monarch Contact API is running",
+  });
+});
 
 // Health check endpoint
 app.get("/health", (req, res) => {
