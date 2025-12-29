@@ -1,4 +1,4 @@
-# Monarch Contact API
+# Contact API
 
 A simple and elegant contact form API that sends email notifications to administrators and confirmation emails to users.
 
